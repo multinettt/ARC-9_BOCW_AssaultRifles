@@ -618,7 +618,7 @@ SWEP.Attachments = {
         Bone = "tag_weapon",
         Pos = Vector(10.75, 0, 1),
         Ang = Angle(0, 0, 0),
-        Category = {"bocw_ak47_body_flash"},
+        Category = {"bocw_east_body"},
         InstalledElements = {"bodymount_flashlight"},
         MergeSlots = {4,5}
     },

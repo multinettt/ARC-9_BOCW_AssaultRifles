@@ -554,6 +554,16 @@ SWEP.AttachmentElements = {
             {14, 1},
         },
     },
+    ["bodymount_laserflash"] = {
+        Bodygroups = {
+            {15, 1},
+        },
+    },
+    ["bodymount_mix"] = {
+        Bodygroups = {
+            {15, 2},
+        },
+    },
     ["barrel_ultralight"] = {
         Bodygroups = {
             {4, 2},
@@ -705,11 +715,11 @@ SWEP.Attachments = {
     {
         PrintName = "BODY",
         Bone = "tag_weapon",
-        Pos = Vector(17.4, 0, 4),
-        Ang = Angle(0, 0, 0),
+        Pos = Vector(16.55, 1.3, 4.35),
+        Ang = Angle(0, 0, 135),
         Icon_Offset = Vector(0, 0, 0),
-        Category = {"bocw_body_ak47"},
-        InstalledElements = {"foregripgone"},
+        Category = {"bocw_ak47_body", "bocw_east_body"},
+        InstalledElements = {"bodymount_laserflash"},
     },
     {
         PrintName = "FRONT SIGHT",
@@ -818,6 +828,16 @@ SWEP.Attachments = {
         Category = {"bocw_ak47_sling"},
         RequireElements = {"stock_type56-2"},
         ExcludeElements = {"barrel_ultralight"},
+    },
+    {
+        Hidden = true,
+        Bone = "tag_weapon",
+        Pos = Vector(17, 0.8, 4.2),
+        Ang = Angle(0, 0, 250),
+        Icon_Offset = Vector(0, 0, 0),
+        Category = {"bocw_ak47_body_mix"},
+        InstalledElements = {"bodymount_mix"},
+        MergeSlots = {4,16}
     },
     {
         PrintName = "Cosmetic",
