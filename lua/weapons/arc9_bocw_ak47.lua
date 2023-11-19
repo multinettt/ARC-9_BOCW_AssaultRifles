@@ -1486,6 +1486,7 @@ SWEP.Animations = {
             },
         },
     },
+    --[[
     ["1_enter_inspect"] = {
         Source = "inspect_frankenstein",
         EventTable = {
@@ -1572,4 +1573,5 @@ SWEP.Animations = {
             },
         },
     },
+    ]]
 }

@@ -1175,6 +1175,7 @@ SWEP.Animations = {
             { s = "ARC9_BOCW.Krig6_inspect_var", t = 3.6 },
         },
     },
+    --[[
     ["1_enter_inspect"] = {
         Source = "inspect_dragon",
         EventTable = {
@@ -1203,6 +1204,7 @@ SWEP.Animations = {
             },
         },
     },
+    ]]
     ["enter_inspect_grip"] = {
         Source = "inspect_grip",
         EventTable = {

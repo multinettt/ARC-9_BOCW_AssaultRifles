@@ -1616,6 +1616,7 @@ SWEP.Animations = {
             },
         },
     },
+    --[[
     ["1_enter_inspect"] = {
         Source = "inspect_music",
         Time = 10,
@@ -1645,4 +1646,5 @@ SWEP.Animations = {
             },
         },
     },
+    ]]
 }

@@ -1253,6 +1253,7 @@ SWEP.Animations = {
             },
         },
     },
+    --[[
     ["1_enter_inspect"] = {
         Source = "inspect_elektrik",
         EventTable = {
@@ -1282,6 +1283,7 @@ SWEP.Animations = {
             },
         },
     },
+    ]]
     ["enter_inspect_ext"] = {
         Source = "inspect_extmag",
         Time = 4.5,
