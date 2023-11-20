@@ -48,7 +48,7 @@ SWEP.Credits = {
      --Contact = "https://steamcommunity.com/id/multinett/"
 }
 
-SWEP.Description = [[Full-auto assault rifle. Reliable damage with improved fire rate. Fair weapon control when sustaining fire
+SWEP.Description = [[Full-auto assault rifle. Reliable damage with improved fire rate. Fair weapon control when sustaining fire.
 
 The XM4 is an assault rifle featured in Call of Duty: Black Ops Cold War.]]
 
@@ -386,8 +386,8 @@ SWEP.HasSights = true
 SWEP.ActivePos = Vector(-0.2, -1.5, 0.1)
 SWEP.ActiveAng = Angle(0, 0, 0)
 
-SWEP.CrouchPos = Vector(-4, 1, -4)
-SWEP.CrouchAng = Angle(0, 0, -30)
+SWEP.CrouchPos = Vector(-1, -1, -1)
+SWEP.CrouchAng = Angle(0, 0, -15)
 
 -- Position when sprinting or safe
 SWEP.RestPos = Vector(0, -1.2, 0)
@@ -1291,6 +1291,28 @@ SWEP.Animations = {
             { s = "ARC9_BOCW.XM4_inspect1", t = 0 },
             { s = "ARC9_BOCW.XM4_inspect2", t = 3.2 },
         },
+        IKTimeLine = {
+            {
+                t = 0,
+                lhik = 1,
+                rhik = 0
+            },
+            {
+                t = 0.1,
+                lhik = 0,
+                rhik = 0
+            },
+            {
+                t = 0.92,
+                lhik = 0,
+                rhik = 0
+            },
+            {
+                t = 0.97,
+                lhik = 1,
+                rhik = 0
+            },
+        },
     },
     ["enter_inspect_mix"] = {
         Source = "inspect_mixmag",
@@ -1299,12 +1321,61 @@ SWEP.Animations = {
             { s = "ARC9_BOCW.XM4_inspect1", t = 0 },
             { s = "ARC9_BOCW.XM4_inspect2", t = 3.2 },
         },
+        IKTimeLine = {
+            {
+                t = 0,
+                lhik = 1,
+                rhik = 0
+            },
+            {
+                t = 0.1,
+                lhik = 0,
+                rhik = 0
+            },
+            {
+                t = 0.92,
+                lhik = 0,
+                rhik = 0
+            },
+            {
+                t = 0.97,
+                lhik = 1,
+                rhik = 0
+            },
+        },
     },
     ["enter_inspect_dual"] = {
         Source = "inspect_dualmag",
         EventTable = {
             { s = "ARC9_BOCW.XM4_inspect_dual1", t = 0 },
             { s = "ARC9_BOCW.XM4_inspect_dual2", t = 3.2 },
+        },
+        IKTimeLine = {
+            {
+                t = 0,
+                lhik = 1,
+                rhik = 0
+            },
+            {
+                t = 0.56,
+                lhik = 1,
+                rhik = 0
+            },
+            {
+                t = 0.65,
+                lhik = 0,
+                rhik = 0
+            },
+            {
+                t = 0.92,
+                lhik = 0,
+                rhik = 0
+            },
+            {
+                t = 0.97,
+                lhik = 1,
+                rhik = 0
+            },
         },
     },
 }
