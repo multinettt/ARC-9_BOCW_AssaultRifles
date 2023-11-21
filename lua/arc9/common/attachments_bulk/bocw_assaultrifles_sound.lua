@@ -77,7 +77,7 @@ ATT.Description = [[Beefier firing sound from Warzone.
 
 VOLUME WARNING! THIS ONE MAY IRRITATE THE RIGHT EAR!
 VOLUME WARNING! THIS ONE MAY IRRITATE THE RIGHT EAR!
-VOLUME WARNING! THIS ONE MAY IRRITATE THE RIGHT EAR!]]
+Beware of loud sound made by bald white dude]]
 
 ATT.SortOrder = 1
 
