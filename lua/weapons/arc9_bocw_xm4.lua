@@ -512,6 +512,9 @@ SWEP.AttachmentElements = {
             [2] = {
                 Pos = Vector(0.955, 0, 0),
             },
+            [13] = {
+                Pos = Vector(0.955, 0, 0),
+            },
         },
     },
     ["barrel_cavalrylancer"] = {
@@ -520,6 +523,9 @@ SWEP.AttachmentElements = {
         },
         AttPosMods = {
             [2] = {
+                Pos = Vector(2.53, 0, 0),
+            },
+            [13] = {
                 Pos = Vector(2.53, 0, 0),
             }
         },
@@ -531,6 +537,9 @@ SWEP.AttachmentElements = {
         AttPosMods = {
             [2] = {
                 Pos = Vector(4.46, 0, 0),
+            },
+            [13] = {
+                Pos = Vector(3.6, 0, 0),
             }
         },
     },
@@ -541,6 +550,9 @@ SWEP.AttachmentElements = {
         AttPosMods = {
             [2] = {
                 Pos = Vector(4.82, 0, 0),
+            },
+            [13] = {
+                Pos = Vector(3.6, 0, 0),
             }
         },
     },
@@ -551,6 +563,9 @@ SWEP.AttachmentElements = {
         AttPosMods = {
             [2] = {
                 Pos = Vector(4.82, 0, 0),
+            },
+            [13] = {
+                Pos = Vector(3.6, 0, 0),
             }
         },
     },
@@ -561,6 +576,9 @@ SWEP.AttachmentElements = {
         AttPosMods = {
             [2] = {
                 Pos = Vector(4.46, 0, 0),
+            },
+            [13] = {
+                Pos = Vector(3.6, 0, 0),
             }
         },
     },
@@ -713,6 +731,14 @@ SWEP.Attachments = {
         Icon_Offset = Vector(-3.1, -0.75, 4),
         ExcludeElements = {"stockgone", "stock_tac", "stock_dst", "handguard_quad"},
         Category = {"bocw_xm4_sling"},
+    },
+    {
+        PrintName = "SOUND",
+        Bone = "tag_weapon",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(22, 0, 3.5),
+        Category = {"bocw_xm4_sound"},
     },
     {
         PrintName = "Cosmetic",

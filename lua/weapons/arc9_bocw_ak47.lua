@@ -574,6 +574,9 @@ SWEP.AttachmentElements = {
             [2] = {
                 Pos = Vector(-5.775, 0, 0),
             },
+            [17] = {
+                Pos = Vector(-5.775, 0, 0),
+            },
         },
     },
     ["barrel_cavalrylancer"] = {
@@ -584,6 +587,9 @@ SWEP.AttachmentElements = {
         },
         AttPosMods = {
             [2] = {
+                Pos = Vector(-3.301, 0, 0),
+            },
+            [17] = {
                 Pos = Vector(-3.301, 0, 0),
             },
         },
@@ -598,6 +604,9 @@ SWEP.AttachmentElements = {
             [2] = {
                 Pos = Vector(1.37, 0, 0),
             },
+            [17] = {
+                Pos = Vector(1.37, 0, 0),
+            },
         },
     },
     ["barrel_liberator"] = {
@@ -607,6 +616,9 @@ SWEP.AttachmentElements = {
         },
         AttPosMods = {
             [2] = {
+                Pos = Vector(6.1, 0, 0),
+            },
+            [17] = {
                 Pos = Vector(6.1, 0, 0),
             }
         },
@@ -619,7 +631,10 @@ SWEP.AttachmentElements = {
         AttPosMods = {
             [2] = {
                 Pos = Vector(1.37, 0, 0),
-            }
+            },
+            [17] = {
+                Pos = Vector(1.37, 0, 0),
+            },
         },
     },
     ["barrel_spetsnazrpk"] = {
@@ -630,6 +645,9 @@ SWEP.AttachmentElements = {
         },
         AttPosMods = {
             [2] = {
+                Pos = Vector(6.1, 0, 0),
+            },
+            [17] = {
                 Pos = Vector(6.1, 0, 0),
             }
         },
@@ -838,6 +856,14 @@ SWEP.Attachments = {
         Category = {"bocw_ak47_body_mix"},
         InstalledElements = {"bodymount_mix"},
         MergeSlots = {4,16}
+    },
+    {
+        PrintName = "SOUND",
+        Bone = "tag_weapon",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(28, 0, 3.4),
+        Category = {"bocw_ak47_sound"},
     },
     {
         PrintName = "Cosmetic",

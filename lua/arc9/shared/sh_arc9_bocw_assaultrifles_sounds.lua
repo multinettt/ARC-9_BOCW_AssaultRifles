@@ -193,7 +193,7 @@ sound.Add({
 
 sound.Add({ -- BLACK OPS COLD WAR
     name = "ARC9_BOCW.XM4_fire",
-    channel = CHAN_STATIC,
+    channel = CHAN_AUTO,
     volume = 1.0,
     level = 100,
     sound = "weapons/arc9/bocw_xm4/xm4_fire.wav"
@@ -204,7 +204,7 @@ sound.Add({ -- WARZONE
     channel = CHAN_STATIC,
     volume = 0.7,
     level = 100,
-    sound = "weapons/arc9/bocw_xm4/xm4_fire_warzone.wav"
+    sound = "weapons/arc9/bocw_xm4/xm4_fire_wz.wav"
 })
 
 sound.Add({ -- BLACK OPS
@@ -384,7 +384,7 @@ sound.Add({
 })
 
 -- PULLOUT PUTAWAY
-
+--[[
 sound.Add({
     name = "ARC9_BOCW.AK47_draw",
     channel = CHAN_AUTO,
@@ -398,26 +398,26 @@ sound.Add({
     volume = 1.0,
     sound = { "weapons/arc9/bocw_ak47/ak47_holster1.wav", "weapons/arc9/bocw_ak47/ak47_holster2.wav" }
 })
-
+]]
 -----------------------------------------------
 -- FIRING SOUNDS
 
 sound.Add({ -- BLACK OPS COLD WAR
     name = "ARC9_BOCW.AK47_fire",
-    channel = CHAN_STATIC,
+    channel = CHAN_AUTO,
     volume = 1.0,
     level = 100,
     sound = "weapons/arc9/bocw_ak47/ak47_fire.wav"
 })
---[[
+
 sound.Add({ -- WARZONE
     name = "ARC9_BOCW.AK47_fire_wz",
-    channel = CHAN_STATIC,
+    channel = CHAN_AUTO,
     volume = 0.7,
     level = 100,
-    sound = "weapons/arc9/bocw_ak47/ak47_fire_warzone.wav"
+    sound = "weapons/arc9/bocw_ak47/ak47_fire_wz.wav"
 })
-
+--[[
 sound.Add({ -- BLACK OPS
     name = "ARC9_BOCW.AK47_fire_bo",
     channel = CHAN_STATIC,
@@ -523,20 +523,20 @@ sound.Add({
 
 sound.Add({ -- BLACK OPS COLD WAR
     name = "ARC9_BOCW.Krig6_fire",
-    channel = CHAN_STATIC,
+    channel = CHAN_AUTO,
     volume = 1.0,
     level = 100,
     sound = "weapons/arc9/bocw_krig6/krig6_fire.wav"
 })
---[[
+
 sound.Add({ -- WARZONE
     name = "ARC9_BOCW.Krig6_fire_wz",
     channel = CHAN_STATIC,
     volume = 0.7,
     level = 100,
-    sound = "weapons/arc9/bocw_krig6/krig6_fire_warzone.wav"
+    sound = "weapons/arc9/bocw_krig6/krig6_fire_wz.wav"
 })
-
+--[[
 sound.Add({ -- BLACK OPS
     name = "ARC9_BOCW.Krig6_fire_bo",
     channel = CHAN_STATIC,
@@ -668,20 +668,20 @@ sound.Add({
 
 sound.Add({ -- BLACK OPS COLD WAR
     name = "ARC9_BOCW.QBZ83_fire",
-    channel = CHAN_STATIC,
+    channel = CHAN_AUTO,
     volume = 1.0,
     level = 100,
     sound = "weapons/arc9/bocw_qbz83/qbz83_fire.wav"
 })
---[[
+
 sound.Add({ -- WARZONE
     name = "ARC9_BOCW.QBZ83_fire_wz",
     channel = CHAN_STATIC,
     volume = 0.7,
     level = 100,
-    sound = "weapons/arc9/bocw_qbz83/qbz83_fire_warzone.wav"
+    sound = "weapons/arc9/bocw_qbz83/qbz83_fire_wz.wav"
 })
-
+--[[
 sound.Add({ -- BLACK OPS
     name = "ARC9_BOCW.QBZ83_fire_bo",
     channel = CHAN_STATIC,
@@ -812,20 +812,20 @@ sound.Add({
 
 sound.Add({ -- BLACK OPS COLD WAR
     name = "ARC9_BOCW.FFAR1_fire",
-    channel = CHAN_STATIC,
+    channel = CHAN_AUTO,
     volume = 1.0,
     level = 100,
     sound = "weapons/arc9/bocw_ffar1/ffar1_fire.wav"
 })
---[[
+
 sound.Add({ -- WARZONE
     name = "ARC9_BOCW.FFAR1_fire_wz",
     channel = CHAN_STATIC,
-    volume = 0.7,
+    volume = 0.5,
     level = 100,
-    sound = "weapons/arc9/bocw_ffar1/ffar1_fire_warzone.wav"
+    sound = "weapons/arc9/bocw_ffar1/ffar1_fire_wz.wav"
 })
-
+--[[
 sound.Add({ -- BLACK OPS
     name = "ARC9_BOCW.FFAR1_fire_bo",
     channel = CHAN_STATIC,

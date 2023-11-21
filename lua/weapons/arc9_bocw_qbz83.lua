@@ -657,6 +657,14 @@ SWEP.Attachments = {
         Category = {"bocw_qbz83_wrap"},
     },
     {
+        PrintName = "SOUND",
+        Bone = "tag_weapon",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(19.5, 0, 2.6),
+        Category = {"bocw_qbz83_sound"},
+    },
+    {
         PrintName = "Cosmetic",
         DefaultCompactName = "CAMO",
         DefaultIcon = Material("arc9/def_att_icons/skin.png"),
