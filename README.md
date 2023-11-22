@@ -4,6 +4,8 @@
 
 It has been 4 months since I was able to post something. These AR's really put me up to the test and took a lot of time to finish. Coupled with stuff I have to deal with in the real world, this one took way longer than anticipated. Really hope this is a good delivery of some cold war weapons content. Have fun!
 
+## [ARC9 BOCW Assault Rifles on Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3089030520)
+
 ## You need to have [Shared Content](https://github.com/multinettt/ARC-9_BOCW_Shared_Content) in order to avoid missing textures, materials and sounds.
 
 ## [BOCW Attachments](https://github.com/multinettt/ARC-9_BOCW_Attachments)
