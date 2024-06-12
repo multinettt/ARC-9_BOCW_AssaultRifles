@@ -465,6 +465,7 @@ SWEP.AttachmentElements = {
     ["maggone"] = {
         Bodygroups = {
             {1, 1},
+            {2, 1}
         }
     },
     ["tapegone"] = {
@@ -625,6 +626,8 @@ SWEP.AttachmentTableOverrides = {
         VisualRecoil = 0.2
     },
 }
+
+SWEP.DuplicateAttachments = true
 
 SWEP.Attachments = {
     {
