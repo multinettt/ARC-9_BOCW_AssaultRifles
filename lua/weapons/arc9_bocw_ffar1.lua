@@ -310,8 +310,8 @@ SWEP.ToggleAttSound = {
     "arc9/toggles/flashlight_laser_toggle_on_03.ogg",
 }
 
-SWEP.EnterSightsSound = ""
-SWEP.ExitSightsSound = ""
+SWEP.EnterSightsSound = "ARC9_BOCW.Shared_ADS_In"
+SWEP.ExitSightsSound = "ARC9_BOCW.Shared_ADS_Out"
 
 SWEP.EnterBipodSound = "arc9/bipod_down.wav"
 SWEP.ExitBipodSound = "arc9/bipod_up.wav"
