@@ -132,7 +132,7 @@ SWEP.TracerSize = 0.5
 
 -------------------------- MAGAZINE
 
-SWEP.Ammo = "ar2" -- What ammo type this gun uses.
+SWEP.Ammo = "smg1" -- What ammo type this gun uses.
 
 SWEP.ChamberSize = 1 -- The amount of rounds this gun can chamber.
 SWEP.ClipSize = 30 -- Self-explanatory.
