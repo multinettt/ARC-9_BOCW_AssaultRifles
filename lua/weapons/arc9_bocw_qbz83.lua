@@ -874,6 +874,7 @@ SWEP.Animations = {
     ["reload"] = {
         Source = "reload",
         NoMagSwap = true,
+        FireASAP = 1,
         MinProgress = 0.58,
         EventTable = {
             { s = "ARC9_BOCW.QBZ83_reload_start", t = 0 },
@@ -906,6 +907,7 @@ SWEP.Animations = {
     },
     ["reload_empty"] = {
         Source = "reload_empty",
+        FireASAP = 1,
         MinProgress = 0.45,
         EventTable = {
             { s = "ARC9_BOCW.QBZ83_reload_start", t = 0 },
@@ -942,6 +944,7 @@ SWEP.Animations = {
     },
     ["reload_ext"] = {
         Source = "reload_ext",
+        FireASAP = 1,
         MinProgress = 0.6,
         EventTable = {
             { s = "ARC9_BOCW.QBZ83_reload_start", t = 0 },
@@ -974,6 +977,7 @@ SWEP.Animations = {
     },
     ["reload_empty_ext"] = {
         Source = "reload_ext_empty",
+        FireASAP = 1,
         MinProgress = 0.475,
         MagSwapTime = 1,
         EventTable = {
@@ -1009,6 +1013,7 @@ SWEP.Animations = {
     },
     ["reload_dual"] = {
         Source = "reload_dualmag",
+        FireASAP = 1,
         MinProgress = 0.55,
         EventTable = {
             { s = "ARC9_BOCW.QBZ83_reload_magout", t = 0.3 },
@@ -1040,6 +1045,7 @@ SWEP.Animations = {
     },
     ["reload_empty_dual"] = {
         Source = "reload_dualmag_empty",
+        FireASAP = 1,
         MinProgress = 0.4,
         EventTable = {
             { s = "ARC9_BOCW.QBZ83_reload_magout", t = 0.2 },
@@ -1073,6 +1079,7 @@ SWEP.Animations = {
     },
     ["1_reload_dual"] = {
         Source = "reload_dualmag2",
+        FireASAP = 1,
         MinProgress = 0.55,
         EventTable = {
             { s = "ARC9_BOCW.QBZ83_reload_magout", t = 0.3 },
@@ -1104,6 +1111,7 @@ SWEP.Animations = {
     },
     ["1_reload_empty_dual"] = {
         Source = "reload_dualmag2_empty",
+        FireASAP = 1,
         MinProgress = 0.45,
         EventTable = {
             { s = "ARC9_BOCW.QBZ83_reload_magout", t = 0.2 },
@@ -1137,6 +1145,7 @@ SWEP.Animations = {
     },
     ["reload_mix"] = {
         Source = "reload_mix",
+        FireASAP = 1,
         MinProgress = 0.58,
         EventTable = {
             { s = "ARC9_BOCW.QBZ83_reload_start", t = 0 },
@@ -1169,6 +1178,7 @@ SWEP.Animations = {
     },
     ["reload_empty_mix"] = {
         Source = "reload_mix_empty",
+        FireASAP = 1,
         MinProgress = 0.45,
         MagSwapTime = 1,
         EventTable = {

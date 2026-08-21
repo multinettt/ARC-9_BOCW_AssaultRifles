@@ -926,6 +926,7 @@ SWEP.Animations = {
         Source = "reload",
         NoMagSwap = true,
         Mult = 0.9,
+        FireASAP = 1,
         MinProgress = 0.65,
         EventTable = {
             { s = "ARC9_BOCW.FFAR1_reload_start", t = 0 },
@@ -963,6 +964,7 @@ SWEP.Animations = {
         Source = "reload_bipod",
         NoMagSwap = true,
         Mult = 0.9,
+        FireASAP = 1,
         MinProgress = 0.65,
         EventTable = {
             { s = "ARC9_BOCW.FFAR1_reload_start", t = 0 },
@@ -999,6 +1001,7 @@ SWEP.Animations = {
     ["reload_empty"] = {
         Source = "reload_empty",
         Mult = 0.9,
+        FireASAP = 1,
         MinProgress = 0.55,
         EventTable = {
             { s = "ARC9_BOCW.FFAR1_reload_start", t = 0 },
@@ -1037,6 +1040,7 @@ SWEP.Animations = {
     ["reload_bipod_empty"] = {
         Source = "reload_empty_bipod",
         Mult = 0.9,
+        FireASAP = 1,
         MinProgress = 0.55,
         EventTable = {
             { s = "ARC9_BOCW.FFAR1_reload_start", t = 0 },
@@ -1072,6 +1076,7 @@ SWEP.Animations = {
     ["reload_ext"] = {
         Source = "reload_ext",
         Mult = 0.9,
+        FireASAP = 1,
         MinProgress = 0.65,
         EventTable = {
             { s = "ARC9_BOCW.FFAR1_reload_start", t = 0 },
@@ -1108,6 +1113,7 @@ SWEP.Animations = {
     ["reload_bipod_ext"] = {
         Source = "reload_ext_bipod",
         Mult = 0.9,
+        FireASAP = 1,
         MinProgress = 0.65,
         EventTable = {
             { s = "ARC9_BOCW.FFAR1_reload_start", t = 0 },
@@ -1144,6 +1150,7 @@ SWEP.Animations = {
     ["reload_empty_ext"] = {
         Source = "reload_ext_empty",
         Mult = 0.9,
+        FireASAP = 1,
         MinProgress = 0.54,
         MagSwapTime = 1,
         EventTable = {
@@ -1183,6 +1190,7 @@ SWEP.Animations = {
     ["reload_bipod_empty_ext"] = {
         Source = "reload_ext_empty_bipod",
         Mult = 0.9,
+        FireASAP = 1,
         MinProgress = 0.54,
         MagSwapTime = 1,
         EventTable = {
@@ -1218,6 +1226,7 @@ SWEP.Animations = {
     },
     ["reload_dual"] = {
         Source = "reload_dualmag",
+        FireASAP = 1,
         MinProgress = 0.65,
         EventTable = {
             { s = "ARC9_BOCW.FFAR1_reload_start", t = 0 },
@@ -1251,6 +1260,7 @@ SWEP.Animations = {
     },
     ["reload_bipod_dual"] = {
         Source = "reload_dualmag_bipod",
+        FireASAP = 1,
         MinProgress = 0.65,
         EventTable = {
             { s = "ARC9_BOCW.FFAR1_reload_start", t = 0 },
@@ -1284,6 +1294,7 @@ SWEP.Animations = {
     },
     ["reload_empty_dual"] = {
         Source = "reload_dualmag_empty",
+        FireASAP = 1,
         MinProgress = 0.475,
         EventTable = {
             { s = "ARC9_BOCW.FFAR1_reload_start", t = 0 },
@@ -1319,6 +1330,7 @@ SWEP.Animations = {
     },
     ["reload_bipod_empty_dual"] = {
         Source = "reload_dualmag_empty_bipod",
+        FireASAP = 1,
         MinProgress = 0.475,
         EventTable = {
             { s = "ARC9_BOCW.FFAR1_reload_start", t = 0 },
@@ -1354,6 +1366,7 @@ SWEP.Animations = {
     },
     ["1_reload_dual"] = {
         Source = "reload_dualmag2",
+        FireASAP = 1,
         MinProgress = 0.65,
         EventTable = {
             { s = "ARC9_BOCW.FFAR1_reload_start", t = 0 },
@@ -1387,6 +1400,7 @@ SWEP.Animations = {
     },
     ["1_reload_bipod_dual"] = {
         Source = "reload_dualmag2_bipod",
+        FireASAP = 1,
         MinProgress = 0.65,
         EventTable = {
             { s = "ARC9_BOCW.FFAR1_reload_start", t = 0 },
@@ -1420,6 +1434,7 @@ SWEP.Animations = {
     },
     ["1_reload_empty_dual"] = {
         Source = "reload_dualmag2_empty",
+        FireASAP = 1,
         MinProgress = 0.475,
         EventTable = {
             { s = "ARC9_BOCW.FFAR1_reload_start", t = 0 },
@@ -1455,6 +1470,7 @@ SWEP.Animations = {
     },
     ["1_reload_bipod_empty_dual"] = {
         Source = "reload_dualmag2_empty_bipod",
+        FireASAP = 1,
         MinProgress = 0.475,
         EventTable = {
             { s = "ARC9_BOCW.FFAR1_reload_start", t = 0 },
@@ -1490,6 +1506,7 @@ SWEP.Animations = {
     },
     ["reload_mix"] = {
         Source = "reload_mix",
+        FireASAP = 1,
         MinProgress = 0.6,
         EventTable = {
             { s = "ARC9_BOCW.FFAR1_reload_start", t = 0 },
@@ -1526,6 +1543,7 @@ SWEP.Animations = {
     },
     ["reload_bipod_mix"] = {
         Source = "reload_mix_bipod",
+        FireASAP = 1,
         MinProgress = 0.6,
         EventTable = {
             { s = "ARC9_BOCW.FFAR1_reload_start", t = 0 },
@@ -1558,6 +1576,7 @@ SWEP.Animations = {
     },
     ["reload_empty_mix"] = {
         Source = "reload_mix_empty",
+        FireASAP = 1,
         MinProgress = 0.45,
         MagSwapTime = 1,
         EventTable = {
@@ -1597,6 +1616,7 @@ SWEP.Animations = {
     },
     ["reload_bipod_empty_mix"] = {
         Source = "reload_mix_empty_bipod",
+        FireASAP = 1,
         MinProgress = 0.45,
         MagSwapTime = 1,
         EventTable = {
