@@ -1237,7 +1237,7 @@ SWEP.Animations = {
     ["reload_mix"] = {
         Source = "reload_mix",
         FireASAP = 1,
-        MinProgress = 1.52,
+        MinProgress = 0.55,
         EventTable = {
             { s = "ARC9_BOCW.XM4_reload_magout", t = 0.65 },
             { s = "ARC9_BOCW.XM4_reload_magin", t = 1.1 },
@@ -1269,7 +1269,7 @@ SWEP.Animations = {
     ["reload_empty_mix"] = {
         Source = "reload_mix_empty",
         FireASAP = 1,
-        MinProgress = 1.52,
+        MinProgress = 0.55,
         EventTable = {
             { s = "ARC9_BOCW.XM4_reload_empty_magout", t = 0.3 },
             { s = "ARC9_BOCW.XM4_reload_empty_magdrop", t = 0.8 },
